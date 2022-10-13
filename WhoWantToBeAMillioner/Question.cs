@@ -3,6 +3,6 @@
 public class Question
 {
     public string Text;
-    public Answer[] Answers;
+    public List<Answer> Answers;
     public int Level;
 }
