@@ -6,7 +6,7 @@ int capital = 0;
 QuestionProvider questionProvider = new QuestionProvider();
 
 
-for (int i = 1; i <= 10; i++)
+for (int i = 1; i <= 5; i++)
 {
     Question question = questionProvider.GetQuestion(i);
     Console.WriteLine(question.Text);
@@ -31,7 +31,7 @@ for (int i = 1; i <= 10; i++)
     }
 }
 
-if (capital == 55000)
+if (capital == 15000)
 {
     Console.WriteLine("You win!");
 }
