@@ -9,6 +9,7 @@ QuestionProvider questionProvider = new QuestionProvider();
 for (int i = 1; i <= 5; i++)
 {
     Question question = questionProvider.GetQuestion(i);
+    question.ShakeAnswers();
     Console.WriteLine(question.Text);
     Console.WriteLine("Choose answer");
     for (int j = 1; j <= 4; j++)

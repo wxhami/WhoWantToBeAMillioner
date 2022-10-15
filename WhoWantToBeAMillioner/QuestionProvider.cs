@@ -3,6 +3,8 @@
 public class QuestionProvider
 {
     public List<Question> Questions;
+    
+    public QuestionProvider()
 
     public Question GetQuestion(int level)
     {
